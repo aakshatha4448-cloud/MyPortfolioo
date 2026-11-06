@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+# The site's only page is portfolio.html, so serve it at the root URL too.
+[[redirects]]
+  from = "/"
+  to = "/portfolio.html"
+  status = 200
